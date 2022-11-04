@@ -3,6 +3,12 @@ header {
   background: rgb(157,196,167);
   align-content: space-between;
 }
+nav {
+  padding: 22px;
+}
+.float-md-start {
+  margin: 5px;
+}
 .nav-masthead .nav-link {
   color:chocolate;
   border-bottom: .25rem solid transparent;
@@ -96,8 +102,7 @@ footer{
 }
 .sticky li{
   list-style-type:none;
-  background-color:#fff;
-  color:#efefef;
+  background-color:rgb(227, 189, 171);
   height:43px;
   padding:0px;
   margin:0px 0px 1px 0px;
@@ -127,4 +132,11 @@ footer{
 }
 .sticky li p a:hover{
   text-decoration:underline;
+}
+
+/*index*/
+.img{
+  border: 15px;
+  margin: 5px;
+  padding-bottom: 50px;
 }
