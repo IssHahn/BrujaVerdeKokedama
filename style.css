@@ -144,6 +144,12 @@ footer{
 }
 
 /*index*/
+.portada {
+  display: flex;
+  flex-wrap: wrap;
+  height: 800px;
+  width: auto;
+}
 .img{
   border: 15px;
   margin: 5px;
@@ -151,4 +157,12 @@ footer{
 }
 main {
   padding-bottom: 50px;
+}
+.centrado{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: rgb(157,196,167);
+  background-color: sienna;
+  font-style: oblique;
 }
