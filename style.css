@@ -18,6 +18,12 @@ header {
   color: chocolate;
   border-bottom-color: sienna;
 }
+nav {
+  padding: 22px;
+}
+.float-md-start {
+  margin: 5px;
+}
 
 /* Footer */
 footer{
