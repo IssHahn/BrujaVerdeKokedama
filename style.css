@@ -43,6 +43,8 @@ footer{
   display: flex;
   flex-direction: column;
   padding: 10px;
+  justify-content:center;
+  align-content: space-between;
 }
 .box__footer .logo img{
   width: 250px;
@@ -57,17 +59,17 @@ footer{
 .box__footer h3{
   margin-bottom: 30px;
   color: rgb(210, 105, 30);
-  font-weight: 100;
+  font-weight: bold;
 }
 .box__footer a{
   margin-top: 10px;
   color: sienna;
-  font-weight: 100;
+  font-weight: bold;
 }
 .box__footer p{
   margin-top: 10px;
   color: sienna;
-  font-weight: 100;
+  font-weight: bold;
 }
 .box__footer a:hover{
   opacity: 0.8;
