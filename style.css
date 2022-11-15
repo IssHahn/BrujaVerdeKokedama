@@ -92,7 +92,6 @@ footer{
 }
 
 /* Iconos redes flotantes */
-/* Iconos redes flotantes */
 .sticky-container{
   padding:0px;
   margin:0px;
@@ -144,4 +143,14 @@ footer{
   background-color: rgb(157,196,167);
   border-radius: 5px;
   border-style: solid;
+}
+
+/*index*/
+.img{
+  border: 15px;
+  margin: 5px;
+  padding-bottom: 50px;
+}
+main {
+  padding-bottom: 50px;
 }
