@@ -1,0 +1,14 @@
+img{
+   margin: 40px;
+   padding: 40px;
+}
+.titulo h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+}
+text{
+    text-align: justify;
+}
+.img-thumbnail {
+    padding: 10px;
+}
