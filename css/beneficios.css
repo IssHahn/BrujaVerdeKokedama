@@ -33,18 +33,3 @@ section
   width: 20em;
 }
 
-
-
-/* Responsive */
-@media screen and (max-width: 480px) 
-{
-  section h1 
-  {
-    font-size: 8rem;
-  }
-  
-  .parallax h1 
-  {
-    font-size: 4rem;
-  }
-}
