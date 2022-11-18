@@ -1,0 +1,35 @@
+h3{ 
+   color:  chocolate; 
+}
+
+/* Parallax */
+
+section 
+{
+  transform-style: preserve-3d;
+  position:static;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(252, 249, 249);
+  background: #fff fixed no-repeat 50% 50%;
+  background-size: cover;
+  background-image: url(../img/PortadaKokes-1.png);
+}
+
+/* boton conuslto gratis */
+#boton
+{
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Acordeon */
+#titulo-cuidados{
+  padding: 10px;
+}
+#imagenes-acordeon{
+  width: 20em;
+}
+
