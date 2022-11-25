@@ -12,3 +12,11 @@ text{
 .img-thumbnail {
     padding: 10px;
 }
+.row col h4{
+    color: sienna;
+}
+.img{
+    border: 15px;
+    margin: 5px;
+    padding-bottom: 50px
+}
