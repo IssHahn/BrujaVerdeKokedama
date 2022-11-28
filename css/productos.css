@@ -22,6 +22,7 @@ img{
    margin: 20px;
 }
 .col img{
+   margin: 20px;
    backdrop-filter: blur(7px);
    background-color: rgba(255, 255, 255, 0.5);
    box-shadow: 35px 35px 68px 0px rgba(157, 177, 255, 0.2), inset -8px -8px 16px 0px rgba(157, 177, 255, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
@@ -31,7 +32,7 @@ img{
    transform: scale(0.95);
    border: 1px rgb(161, 182, 161)
  }
- /* boton de pagina de beneficios */
+ /* boton de arriba en titulo */
  button {
    display: flex;
    align-items: center;
@@ -93,3 +94,8 @@ img{
    margin:1px 2px;
    margin-right:1px;
  }
+ @media (max-widh: 800px) {
+   .container-p {
+      width: 40%;
+   }
+}
