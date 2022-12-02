@@ -1,4 +1,5 @@
-@media only screen and (max-width: 600px) {
+
+@media screen and (max-width: 480px) {
 
   .album {
     max-width: 25%;

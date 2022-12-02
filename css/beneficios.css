@@ -3,7 +3,9 @@ h3{
 }
 
 /* Parallax */
-
+ul {
+  list-style: none;
+}
 section 
 {
   transform-style: preserve-3d;
