@@ -2,7 +2,6 @@
    display: flex;
    justify-content: space-between;
 }
-
 img{
    margin: 15px;
 }
@@ -54,46 +53,14 @@ img{
    transition: 0.2s;
    box-shadow: -4px -2px 16px 0px #ffffff, 4px 2px 16px 0px rgb(95 157 231 / 48%);
   }
-  
   button:hover {
    color: #516d91;
    background-color: #E5EDF5;
    box-shadow: -2px -1px 8px 0px #ffffff, 2px 1px 8px 0px rgb(95 157 231 / 48%);
   }
-  
   button:active {
    box-shadow: none;
   }
-  /* boton de subida */
-.button1 {
-   width: 60px;
-   height: 60px;
-   bottom: 40px;
-   right: 40px;
-   color: #FFF;
-   border-radius: 50px;
-   text-align: center;
-   font-size: 30px;
-   box-shadow: 2px 2px 3px #999;
-   z-index: 100;
-   border: hsl(133, 26%, 53%);
-   transition: 0.5s;
-   transform: scale(1.1);
-   background-color: hsl(123, 37%, 71%);
- }
- .arrow-up {
-   width: 0;
-   height: 0;
-   border-left: 10px solid transparent;
-   border-right: 10px solid transparent;
-   margin-left: 10px;
-   margin-top: 10%;
-   margin-bottom: 10%;
-   border-bottom: 10px solid white;
-   float:left;
-   margin:1px 2px;
-   margin-right:1px;
- }
  @media (max-widh: 800px) {
    .container-p {
       width: 40%;
