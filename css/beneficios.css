@@ -5,6 +5,8 @@ h3{
 /* Parallax */
 ul {
   list-style: none;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 section 
 {
@@ -27,11 +29,21 @@ section
   padding: 10px;
 }
 
+.lead {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 /* Acordeon */
+.accordion{
+  padding-left: 50px;
+  padding-right: 50px;
+}
 #titulo-cuidados{
   padding: 10px;
 }
 #imagenes-acordeon{
   width: 20em;
+  padding: 30px;
 }
 
