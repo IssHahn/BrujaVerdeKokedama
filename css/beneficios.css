@@ -2,6 +2,9 @@ h3{
    color:  chocolate; 
 }
 
+ul{
+  list-style: none;
+}
 /* Parallax */
 
 section 
@@ -12,18 +15,17 @@ section
   display: flex;
   align-items: center;
   justify-content: center;
+  list-style:none;
   color: rgb(252, 249, 249);
   background: #fff fixed no-repeat 50% 50%;
   background-size: cover;
   background-image: url(../img/PortadaKokes-1.png);
-}
-
-/* boton conuslto gratis */
-#boton
-{
-  margin: 10px;
-  padding: 10px;
-}
+  }
+  
+  .lead {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 
 /* Acordeon */
 #titulo-cuidados{

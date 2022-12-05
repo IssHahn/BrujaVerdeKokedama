@@ -150,3 +150,16 @@ footer{
   border-radius: 5px;
   border-style: solid;
 }
+@media (max-width: 800px) {
+  .box__footer{
+    font-size: 10px;
+    text-align: center;
+  }
+  .box__footer .logo img{
+    width: 50%;
+  }
+  .box__copyright {
+    font-size: 15px;
+    text-align: center;
+  }
+}
