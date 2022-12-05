@@ -1,3 +1,60 @@
+
+@media screen and (max-width: 480px) {
+
+  .album {
+    max-width: 25%;
+    padding: none;
+  }
+  .container {
+    max-width: 25%;
+    padding: none;
+  }
+  .col {
+    max-width: 25%;
+    padding: none;
+  }
+  .card {
+    max-width: 600px;
+    padding: none;
+    width: 25%;
+  }
+  .card-img-top {
+    max-width: 25%;
+    padding: none;
+  }
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    text-align: center;
+  }
+  .container__footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    text-align: center;
+  }
+  .box__footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    text-align: center;
+    align-content: center;
+  }
+  .mt-auto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    text-align: center;
+    align-content: center;
+  }
+}
+
+
 /* Header */
 header {
   background: rgb(157,196,167);
@@ -58,7 +115,7 @@ footer{
 }
 .box__footer h3{
   margin-bottom: 30px;
-  color: rgb(210, 105, 30);
+  color: #d2691e;
   font-weight: bold;
 }
 .box__footer a{
@@ -139,18 +196,8 @@ footer{
   padding: 10px;
   border: 3px;
   font-weight: bold;
-  color: sienna;
-  background-color: rgb(157,196,167);
+  color: #a0522d;
+  background-color: #9dc4a7;
   border-radius: 5px;
   border-style: solid;
-}
-
-/*index*/
-.img{
-  border: 15px;
-  margin: 5px;
-  padding-bottom: 50px;
-}
-main {
-  padding-bottom: 50px;
 }
